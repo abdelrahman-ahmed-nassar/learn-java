@@ -1,4 +1,4 @@
-public class $05_arithmetic_operators_2 {
+public class arithmetic_operators_2 {
 
   public static void main(String[] args) throws Exception {
       int y = 0;

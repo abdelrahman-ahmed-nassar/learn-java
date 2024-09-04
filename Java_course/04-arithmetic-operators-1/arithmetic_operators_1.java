@@ -1,4 +1,4 @@
-public class $04_arithmetic_operators_1 {
+public class arithmetic_operators_1 {
 
   public static void main(String[] args) throws Exception {
     // assignment operator
@@ -14,6 +14,7 @@ public class $04_arithmetic_operators_1 {
     // Parentheses
 
     // Modulus
+    // 
 
     //* ### operations precedence ###
     // TODO please excuse my dear aunt Sally
