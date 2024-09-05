@@ -27,6 +27,7 @@ public class scanner {
 
 
         //* ### get string from user  ###
+        
         // get String 
         String userInputString = in.next();
 
