@@ -2,10 +2,10 @@
 public class while_loop {
 
     public static void main(String[] args) throws Exception {
+    //* ### First type : Count controlled loop ###
 
-        // when repeat a code depending on a condition or a boolean expression
-        /*
-    every while loop MUST
+    /*
+    while loop MUST
 
     [1] has a counter with init value
     [2] has a starting condition (Must be boolean => No type corrasion)

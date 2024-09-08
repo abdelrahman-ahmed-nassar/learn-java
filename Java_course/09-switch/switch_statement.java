@@ -66,23 +66,18 @@ public class switch_statement {
             default ->
                 throw new AssertionError();
         }
-        
 
         //!  cannot accept float or double
         //* */ if entered a float or double it will take the int part and ignore the decimal part
-
-
         // you can use a block of code => case : {}
-        
         /* 
-          Case value conditions
-          
-          [1] must be const and not dynamic
-          [2] must be unique
-          [3] must  be same type (of the origin variable)
-          [4] DO NOT support range, float, double
+        Case value conditions
+        
+        [1] must be const and not dynamic
+        [2] must be unique
+        [3] must  be same type (of the origin variable)
+        [4] DO NOT support range, float, double
          */
-
-         // if you have a complex condition rather than equality  => use if else
+        // if you have a complex condition rather than equality  => use if else
     }
 }

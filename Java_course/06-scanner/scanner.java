@@ -44,6 +44,9 @@ public class scanner {
         System.out.println("the float: " + userInputFloat);
         System.out.println("the byte: " + userInputByte);
 
+        //  close scanner to free memory
+        in.close();
+
     }
 ;
 }
