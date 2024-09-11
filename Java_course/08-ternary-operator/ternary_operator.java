@@ -6,10 +6,14 @@ public class ternary_operator {
     /*
     and => &&
     or => ||
+    -- can be written double or single & |
     not => !
      */
 
+
     //*  ### Ternary operator
+
+    // deal with expression not statements
 
     // expression ? (if true) : (if false)
     int y = 1;

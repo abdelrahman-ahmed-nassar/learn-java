@@ -5,12 +5,12 @@ public class if_statement {
         //* ### Relational operator
 
         /*
-          ==
-          !=
-          >
-          <
-          >=
-          <=
+        ==
+        !=
+        >
+        <
+        >=
+        <=
          */
         //* ### Selection Statement ###
         int num = 10;

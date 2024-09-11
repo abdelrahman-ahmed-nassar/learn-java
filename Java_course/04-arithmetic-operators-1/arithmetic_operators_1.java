@@ -19,7 +19,8 @@ public class arithmetic_operators_1 {
     //* ### operations precedence ###
     // TODO please excuse my dear aunt Sally
     
-    // data types mix => The result will be the bigger (in memory)
+    //*  ###  data types mix ### 
+    // The result will be the bigger (in memory)
     // int + float => float
     // int / int => int
 
