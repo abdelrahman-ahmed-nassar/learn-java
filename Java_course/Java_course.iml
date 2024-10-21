@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/01-print" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02-comments-and-escape-chars" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/03-variables-AND-dataTypes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/04-arithmetic-operators-1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/05-arithmetic-operators-2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/06-scanner" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/07-if" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/08-ternary-operator" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/09-switch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/10-while-loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/11-while-loop-sentinel-and-flag" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/12-do-while-loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13-for-loop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14-loops-exercise" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/15-branching-statements-break-continue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16-nested-loops" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17-labeled-break-and-continue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18-functions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19-functinos-examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20-builtin-methods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/21-overloading-method" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/22-recursion-methods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/23-recursion-examples" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/24-one-dimensional-array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/25-one-dimensional-array-exercise" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/26-arrays-char" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/27-passing-array-to-methods" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/28-Multidimensional-arrays" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/29-string-and-string-arrays" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

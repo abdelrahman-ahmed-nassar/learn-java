@@ -1,5 +1,7 @@
+// class name convention starts with upperCase
+// filename match the class name
 
-public class print {
+public class Print {
 
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
@@ -9,6 +11,7 @@ public class print {
         // formatted print
         System.out.printf("hello %s%n", "world");
 
+
         /*
         
         d: [byte, short, int, long]
@@ -17,7 +20,6 @@ public class print {
         sS: String Capital S will uppercase all the letters in the string
         n : new line
          */
-
     }
 ;
 }
