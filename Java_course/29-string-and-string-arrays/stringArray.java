@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class stringArray {
   public static void main(String[] args) {
@@ -12,7 +11,7 @@ public class stringArray {
     /*
     .concat("", "")
     .equals() [check equality for strings created by new String()]
-    .equalsIgnoreCase() [check equality wth x]
+    .equalsIgnoreCase() [check equality with x]
     .compareTo() [ASCII first difference]
     .trim() [remove spaces]
     .toUpperCase()
@@ -36,7 +35,7 @@ public class stringArray {
     String str3 = "ahmed";
     String str4 = "ahmed";
 
-    // str3 = str4 ==> will not copy reference but the valeu
+    // str3 = str4 ==> will not copy reference but the value
 
     System.out.println(str3 == str4); // true
 
@@ -45,10 +44,7 @@ public class stringArray {
 
     System.out.println(str5 == str6); // false
     System.out.println(str3.equals(str6)); // true (compare content)
-
-
-
-
-
+    
   }
 }
+

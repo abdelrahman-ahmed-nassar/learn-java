@@ -46,6 +46,9 @@ public class ForLoop {
             System.out.println("i : " + i + " J : " + j);
         }
 
+        for (int i = 0; i < 10; i++) 
+            System.out.printf("a");
+
     }
 ;
 }

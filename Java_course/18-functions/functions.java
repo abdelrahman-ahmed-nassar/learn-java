@@ -14,7 +14,8 @@ public class functions {
         return;
     }
 
-    // using parameters
+    // using parameters *
+
     static void printInt(int args) {
         System.out.println(args);
     }

@@ -52,13 +52,13 @@ public class BuiltinMethods {
         System.out.println(Math.random());
 
         // ranged range
-        // (random() * ((max - min) + 1)) + min
+        // (random() * (max - min)) + min
 
         // maximum value of 2 values
         System.out.println(Math.max(2.5 , 6));
         // more than one
         System.out.println(Math.max(2.5 , Math.max(1,2)));
-
+v
         // minimum value of 2 values
         System.out.println(Math.min(2.5 , 6));
         // more than one
@@ -81,6 +81,7 @@ public class BuiltinMethods {
         toLowerCase
         toUpperCase
          */
+        
 
          //*  ### Char methods ###
 

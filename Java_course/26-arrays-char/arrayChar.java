@@ -26,7 +26,7 @@ public class arrayChar {
     arr = myString.toCharArray();
 
     // you have builtin methods in the char array
-    // Array.sort()
+    // Arrays.sort()
 
     // make a string from char array [arr, start , length]
     String str = new String(arr, 0, 2);

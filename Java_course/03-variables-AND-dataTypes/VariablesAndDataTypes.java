@@ -32,7 +32,7 @@ public class  VariablesAndDataTypes {
 
         //* ### PRIMITIVE DATA TYPE ###
         
-        byte myByte = 1; // from -128 -> 127
+        byte myByte = 19; // from -128 -> 127
         short myShort = 1000; // from -2^15 -> 2^15
         
         int myInt = 10; // Integer.MAX_VALUE -> Integer.MAX_VALUE (32 bit)
@@ -41,6 +41,7 @@ public class  VariablesAndDataTypes {
         // the default dealing with a float number is double => use f to indicate conversion
         float myFloat = 2.3f; // Float.MAX_VALUE -> Float.MAX_VALUE (7 digits)
         double myDouble = 2.3d; // Double.MAX_VALUE -> Double.MAX_VALUE (15 digits)
+        
 
         char myChar = 's'; // must be single quote
         char myCharByCode = 97; // can use the ASCII code

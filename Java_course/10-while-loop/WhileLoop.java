@@ -20,7 +20,7 @@ public class WhileLoop {
         System.out.println(count);
         // count=6
 
-        while (count++ <= 1) {
+        while (count++ <= 8) {
             System.out.println(count);
             // postfix has high precedence
             /*
@@ -43,6 +43,7 @@ public class WhileLoop {
             System.out.println(count);
             // prefix has high precedence
         }
+        
         System.out.println(count);
         // count=3
 

@@ -4,10 +4,12 @@ public class RecursionMethods {
     public static int factorial(int a) {
         if (a == 1) {
             return 1;
+        }else {
+        return a * factorial(a - 1);
         }
-        return a * factorial(a - 1
-        );
+        
     }
+    
     static int counter = 0;
 
     public static void fun() {

@@ -39,5 +39,6 @@ public class passArraysToMethods {
     System.out.println(arr3[0]);
 
     setArray(arr); // will work
+    System.out.println(arr[0]);
   }
 }

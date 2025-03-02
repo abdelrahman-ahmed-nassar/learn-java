@@ -13,14 +13,18 @@ public class ArithmeticOperators2 {
     // x++
     // x--
 
-  // DOES not make difference in declaration
+    System.out.println(++x);
+    System.out.println(x++);
 
   // MAKES difference in other expressions
-  System.out.println(++x);
-  System.out.println(x++);
 
+
+    System.out.println(y);
   y = x++;
+    System.out.println(y);
   y = ++x;
+    System.out.println(y);
+
 
   //! HAS high precedence 
   y = ++x * ++x;

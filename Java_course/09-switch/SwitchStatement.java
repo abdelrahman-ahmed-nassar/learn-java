@@ -8,9 +8,9 @@ public class SwitchStatement {
     switch (expression) {use case}
     use it when there is a variable that you want to compare with different values.
 
-    it depend on the equality comparison
+    it depends on the equality comparison
 
-    if it equal a specific value you execute the code
+    if it equals a specific value you execute the code
 
     if no case is equal, it will execute the default
          */

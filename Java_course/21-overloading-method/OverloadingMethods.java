@@ -26,7 +26,7 @@ public class OverloadingMethods {
     /*
     how compiler differ from the methods
     [1] from the number of arguments
-    [2] from the parameters data types (!! not the return value)
+    [2] from the arguments data types (!! not the return value)
      */
     public static void main(String[] args) throws Exception {
         // different methods has the same name (different signatures (parameter type))

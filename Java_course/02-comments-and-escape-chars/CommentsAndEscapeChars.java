@@ -14,5 +14,7 @@ public class CommentsAndEscapeChars {
 		[7] \" double quote
 		[8] \\ backslash
 		 */
+
+		System.out.printf("hello \f world");
 	};
 }

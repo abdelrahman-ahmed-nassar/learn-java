@@ -28,7 +28,7 @@ public class TheScanner {
 
         //* ### get string from user  ###
         
-        // get String 
+        // get String
         String userInputString = in.next();
 
         // get the string with spaces
@@ -36,9 +36,6 @@ public class TheScanner {
 
         // get char
         char userInputChar = in.next().charAt(0);
-
-
-
 
         System.out.println("the number: " + userInputInt);
         System.out.println("the float: " + userInputFloat);

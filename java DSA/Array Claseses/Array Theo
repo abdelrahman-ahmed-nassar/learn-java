@@ -1,0 +1,131 @@
+ Summary
+
+
+
+ • Arrays in Java are objects, created with the new operator.
+ • Unordered arrays offer fast insertion but slow searching and deletion.
+ •Wrapping an array in a class protects the array from being inadvertently
+ altered.
+ • Aclass interface is composed of the methods (and occasionally fields) that the
+ class user can access.
+ • Aclass interface can be designed to make things simple for the class user.
+ • Abinary search can be applied to an ordered array.
+ • The logarithm to the base B of a number A is (roughly) the number of times
+ you can divide A by B before the result is less than 1.
+ • Linear searches require time proportional to the number of items in an array
+ • Binary searches require time proportional to the logarithm of the number of
+ items.
+ • Big O notation provides a convenient way to compare the speed of algorithms.
+ • An algorithm that runs in O(1) time is the best, O(log N) is good, O(N) is fair,
+ and O(N2) is pretty bad
+
+
+Questions
+
+
+
+ These questions are intended as a self-test for readers. Answers may be found in
+ Appendix C.
+ 1. Inserting an item into an unordered array
+    a. takes time proportional to the size of the array.
+    b. requires multiple comparisons.
+    c. requires shifting other items to make room.
+    d. takes the same time no matter how many items there are.
+ 2. True or False: When you delete an item from an unordered array, in most cases
+ you shift other items to fill in the gap.
+ 3. In an unordered array, allowing duplicates
+    a. increases times for all operations.
+    b. increases search times in some situations.
+    c. always increases insertion times.
+    d. sometimes decreases insertion times.
+ 4. True or False: In an unordered array, it’s generally faster to find out an item is
+ not in the array than to find out it is.
+ 5. Creating an array in Java requires using the keyword ________ .
+ 6. If class A is going to use class B for something, then
+    a. class A’s methods should be easy to understand.
+    b. it’s preferable if class B communicates with the program’s user.
+    c. the more complex operations should be placed in class A.
+    d. the more work that class B can do, the better.
+ 7. When class A is using class B for something, the methods and fields class A can
+ access in class B are called class B’s __________
+8. Ordered arrays, compared with unordered arrays, are
+    a. much quicker at deletion.
+    b. quicker at insertion.
+    c. quicker to create.
+    d. quicker at searching.
+ 9. A logarithm is the inverse of _____________ .
+ 10. The base 10 logarithm of 1,000 is _____ .
+ 11. The maximum number of elements that must be examined to complete a
+ binary search in an array of 200 elements is
+    a. 200.
+    b. 8.
+    c. 1.
+    d. 13.
+ 12. The base 2 logarithm of 64 is ______ .
+ 13. True or False: The base 2 logarithm of 100 is 2.
+ 14. Big O notation tells
+    a. how the speed of an algorithm relates to the number of items.
+    b. the running time of an algorithm for a given size data structure.
+    c. the running time of an algorithm for a given number of items.
+    d. how the size of a data structure relates to the number of items.
+ 15. O(1) means a process operates in _________ time.
+ 16. Either variables of primitive types or _________ can be placed in an array
+
+
+
+
+Experiments
+
+
+
+ Carrying out these experiments will help to provide insights into the topics covered
+ in the chapter. No programming is involved.
+ 1. Use the Array Workshop applet to insert, search for, and delete items. Make
+ sure you can predict what it’s going to do. Do this both when duplicates are
+ allowed and when they’re not.
+ 2. Make sure you can predict in advance what range the Ordered Workshop
+ applet will select at each step
+ 3. In an array holding an even number of data items, there is no middle item.
+ Which item does the binary search algorithm examine first? Use the Ordered
+ Workshop applet to find out
+
+
+
+ Programming Project
+
+
+ Writing programs to solve the Programming Projects helps to solidify your under
+standing of the material and demonstrates how the chapter’s concepts are applied.
+ (As noted in the Introduction, qualified instructors may obtain completed solutions
+ to the Programming Projects on the publisher’s Web site.)
+ 2.1 To the HighArray class in the highArray.java program (Listing 2.3), add a
+ method called getMax() that returns the value of the highest key in the array,
+ or –1 if the array is empty. Add some code in main() to exercise this method.
+ You can assume all the keys are positive numbers.
+ 2.2 Modify the method in Programming Project 2.1 so that the item with the
+ highest key is not only returned by the method, but also removed from the
+ array. Call the method removeMax().
+ 2.3 The removeMax() method in Programming Project 2.2 suggests a way to sort
+ the contents of an array by key value. Implement a sorting scheme that does
+ not require modifying the HighArray class, but only the code in main(). You’ll
+ need a second array, which will end up inversely sorted. (This scheme is a
+ rather crude variant of the selection sort in Chapter 3, “Simple Sorting.”)
+ 2.4 Modify the orderedArray.java program (Listing 2.4) so that the insert() and
+ delete() routines, as well as find(), use a binary search, as suggested in the
+ text.
+ 2.5 Add a merge() method to the OrdArray class in the orderedArray.java
+ program (Listing 2.4) so that you can merge two ordered source arrays into an
+ ordered destination array. Write code in main() that inserts some random
+ numbers into the two source arrays, invokes merge(), and displays the contents
+ of the resulting destination array. The source arrays may hold different
+ numbers of data items. In your algorithm you will need to compare the keys of
+ the source arrays, picking the smallest one to copy to the destination. You’ll
+ also need to handle the situation when one source array exhausts its contents
+ before the other.
+ 2.6 Write a noDups() method for the HighArray class of the highArray.java
+ program (Listing 2.3). This method should remove all duplicates from the
+ array. That is, if three items with the key 17 appear in the array, noDups()
+ should remove two of them. Don’t worry about maintaining the order of the
+ items. One approach is to first compare every item with all the other items and
+ overwrite any duplicates with a null (or a distinctive value that isn’t used for
+ real keys). Then remove all the nulls. Of course, the array size will be reduced
