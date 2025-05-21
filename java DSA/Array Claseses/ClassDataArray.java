@@ -8,6 +8,7 @@ package com.mycompany.dsa;
  *
  * @author aanassar
  */
+
 public class ClassDataArray {
 
     private Person[] a;               // reference to array

@@ -48,10 +48,22 @@ public void insertionSort() {
             while (in > 0 && a[in - 1] >= temp) // until one is smaller,
             {
                 a[in] = a[in - 1];            // shift item to right--in;                       // go left one position
+                in--;
             }
             a[in] = temp;                  // insert marked item
         }  // end for
     }  // end insertionSort()
+
+    public void insertionSortForLoop() {
+        int in, out;
+        for (out = 1; out < nElems; out++) { // out is dividing line
+            long temp = a[out];  // Remove marked item
+            for (in = out; in > 0 && a[in - 1] >= temp; in--) {
+                a[in] = a[in - 1]; // Shift item to the right
+            }
+            a[in] = temp; // Insert marked item
+        }
+    }
     //-------------------------------------------------------------
 }  // end class ArrayIns
  ////////////////////////////////////////////////////////////////

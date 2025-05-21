@@ -8,7 +8,7 @@ package com.mycompany.dsa;
  *
  * @author aanassar
  */
-public class OrdArray {
+public class OrdArray_binarySearch {
     //ordered
 
     private long[] a;

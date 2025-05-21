@@ -49,7 +49,7 @@ package com.mycompany.dsa;
         {
             front = 0;
         }
-        nItems--;                      // one less item
+        nItems--;                   // one less item
         return temp;
     }
     //-------------------------------------------------------------

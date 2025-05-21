@@ -72,9 +72,9 @@ public class HighArray {
     public void display() // displays array contents
     {
         for (int j = 0; j < nElems; j++) {
-             System.out.print(a[j] + " ");
+            System.out.print(a[j] + " ");
         }
-         System.out.println("");
+        System.out.println("");
     }
     //----------------------------------------------------------
 }  // end class HighArray
