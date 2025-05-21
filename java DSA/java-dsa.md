@@ -1,56 +1,54 @@
 # Data Structures & Algorithms in Java Second Edition
 
-## Table Of content
+## Table Of Content
 
-- [[#chapter.2 : Arrays|chapter.2 : Arrays]]
-  - [[#chapter.2 : Arrays#2.1 Low Array Class|2.1 Low Array Class]]
-  - [[#chapter.2 : Arrays#2.2 High Array Class|2.2 High Array Class]]
-  - [[#chapter.2 : Arrays#2.3 Ordered Array Class (Binary Search)|2.3 Ordered Array Class (Binary Search)]]
-  - [[#chapter.2 : Arrays#2.3 Array of Objects Class|2.3 Array of Objects Class]]
-- [[#chapter.3 simple sorts|chapter.3 simple sorts]]
-  - [[#chapter.3 simple sorts#3.1 Bubble Sort|3.1 Bubble Sort]]
-  - [[#chapter.3 simple sorts#3.2 Selection Sort|3.2 Selection Sort]]
-  - [[#chapter.3 simple sorts#3.3 Insertion Sort|3.3 Insertion Sort]]
-- [[#chapter.4 Stack & Queue|chapter.4 Stack & Queue]]
-  - [[#chapter.4 Stack & Queue#4.1 Stack Implementation using Array|4.1 Stack Implementation using Array]]
-  - [[#chapter.4 Stack & Queue#4.2 Stack Example.1 : Reversing a word using stack|4.2 Stack Example.1 : Reversing a word using stack]]
-  - [[#chapter.4 Stack & Queue#4.3 Stack Example.2 : delimiter matching|4.3 Stack Example.2 : delimiter matching]]
-  - [[#chapter.4 Stack & Queue#4.4 Queue Implementation using Array & nItems (fixed size)|4.4 Queue Implementation using Array & nItems (fixed size)]]
-  - [[#chapter.4 Stack & Queue#4.5 Queue Implementation using Array without nItems (dynamic size)|4.5 Queue Implementation using Array without nItems (dynamic size)]]
-  - [[#chapter.4 Stack & Queue#4.6 priority Queue using Array|4.6 priority Queue using Array]]
-  - [[#chapter.4 Stack & Queue#4.7 Java Code to Convert Infix to Postfix|4.7 Java Code to Convert Infix to Postfix]]
-- [[#chapter.5 Linked List|chapter.5 Linked List]]
-  - [[#chapter.5 Linked List#5.1 simple Linked List class (with no find or delete)|5.1 simple Linked List class (with no find or delete)]]
-  - [[#chapter.5 Linked List#5.2 complete Linked List class|5.2 complete Linked List class]]
-  - [[#chapter.5 Linked List#5.3 Double ended Linked List|5.3 Double ended Linked List]]
-  - [[#chapter.5 Linked List#5.4 Stack implemented Using Linked List|5.4 Stack implemented Using Linked List]]
-  - [[#chapter.5 Linked List#5.5 Queue implemented Using Linked List|5.5 Queue implemented Using Linked List]]
-  - [[#chapter.5 Linked List#5.6 Sorted Linked List|5.6 Sorted Linked List]]
-  - [[#chapter.5 Linked List#5.7 sorting a linked list using the insertion sort|5.7 sorting a linked list using the insertion sort]]
-  - [[#chapter.5 Linked List#5.8 Doubly Linked List|5.8 Doubly Linked List]]
-  - [[#chapter.5 Linked List#5.9 Iterator Interface|5.9 Iterator Interface]]
-- [[#chapter.6 Recursion|chapter.6 Recursion]]
-  - [[#chapter.6 Recursion#6.1 Triangle Numbers|6.1 Triangle Numbers]]
-  - [[#chapter.6 Recursion#6.2 Anagrams|6.2 Anagrams]]
-  - [[#chapter.6 Recursion#6.3 Recursive Binary Search|6.3 Recursive Binary Search]]
-  - [[#chapter.6 Recursion#6.4 The Tower Of hanoi|6.4 The Tower Of hanoi]]
-  - [[#chapter.6 Recursion#6.5 Merge two arrays|6.5 Merge two arrays]]
-  - [[#chapter.6 Recursion#6.6 merge sort|6.6 merge sort]]
-  - [[#chapter.6 Recursion#6.7 Eliminating Recursion (stack based solution)|6.7 Eliminating Recursion (stack based solution)]]
-  - [[#chapter.6 Recursion#6.8 complete Eliminating Recursion|6.8 complete Eliminating Recursion]]
-- [[#chapter.7 Advanced Sorting|chapter.7 Advanced Sorting]]
-  - [[#chapter.7 Advanced Sorting#7.1 shell sort|7.1 shell sort]]
-  - [[#chapter.7 Advanced Sorting#7.2 partitioning|7.2 partitioning]]
-  - [[#chapter.7 Advanced Sorting#7.3 Quick Sort Algorithm|7.3 Quick Sort Algorithm]]
-  - [[#chapter.7 Advanced Sorting#|]]
-  - [[#chapter.7 Advanced Sorting#7.5 Quick Sort 3 (Handling Small Partitions)|7.5 Quick Sort 3 (Handling Small Partitions)]]
-  - [[#chapter.7 Advanced Sorting#7.6 Radix sort|7.6 Radix sort]]
-- [[#chapter.8 Binary Tree|chapter.8 Binary Tree]]
-  - [[#chapter.8 Binary Tree#8.1 tree class|8.1 tree class]]
-- [[#chapter.10 2-3-4 tree|chapter.10 2-3-4 tree]]
-  - [[#chapter.10 2-3-4 tree#10.1 2-3-4 tree class|10.1 2-3-4 tree class]]
-  - [[#chapter.10 2-3-4 tree#chapter.11 Hash Tables|chapter.11 Hash Tables]]
-
+- [Chapter 2: Arrays](#chapter-2-arrays)
+  - [2.1 Low Array Class](#21-low-array-class)
+  - [2.2 High Array Class](#22-high-array-class)
+  - [2.3 Ordered Array Class (Binary Search)](#23-ordered-array-class-binary-search)
+  - [2.3 Array of Objects Class](#23-array-of-objects-class)
+- [Chapter 3: Simple Sorts](#chapter-3-simple-sorts)
+  - [3.1 Bubble Sort](#31-bubble-sort)
+  - [3.2 Selection Sort](#32-selection-sort)
+  - [3.3 Insertion Sort](#33-insertion-sort)
+- [Chapter 4: Stack & Queue](#chapter-4-stack--queue)
+  - [4.1 Stack Implementation using Array](#41-stack-implementation-using-array)
+  - [4.2 Stack Example 1: Reversing a word using stack](#42-stack-example-1-reversing-a-word-using-stack)
+  - [4.3 Stack Example 2: Delimiter matching](#43-stack-example-2-delimiter-matching)
+  - [4.4 Queue Implementation using Array & nItems (fixed size)](#44-queue-implementation-using-array--nitems-fixed-size)
+  - [4.5 Queue Implementation using Array without nItems (dynamic size)](#45-queue-implementation-using-array-without-nitems-dynamic-size)
+  - [4.6 Priority Queue using Array](#46-priority-queue-using-array)
+  - [4.7 Java Code to Convert Infix to Postfix](#47-java-code-to-convert-infix-to-postfix)
+- [Chapter 5: Linked List](#chapter-5-linked-list)
+  - [5.1 Simple Linked List class (with no find or delete)](#51-simple-linked-list-class-with-no-find-or-delete)
+  - [5.2 Complete Linked List class](#52-complete-linked-list-class)
+  - [5.3 Double ended Linked List](#53-double-ended-linked-list)
+  - [5.4 Stack implemented Using Linked List](#54-stack-implemented-using-linked-list)
+  - [5.5 Queue implemented Using Linked List](#55-queue-implemented-using-linked-list)
+  - [5.6 Sorted Linked List](#56-sorted-linked-list)
+  - [5.7 Sorting a linked list using the insertion sort](#57-sorting-a-linked-list-using-the-insertion-sort)
+  - [5.8 Doubly Linked List](#58-doubly-linked-list)
+  - [5.9 Iterator Interface](#59-iterator-interface)
+- [Chapter 6: Recursion](#chapter-6-recursion)
+  - [6.1 Triangle Numbers](#61-triangle-numbers)
+  - [6.2 Anagrams](#62-anagrams)
+  - [6.3 Recursive Binary Search](#63-recursive-binary-search)
+  - [6.4 The Tower Of Hanoi](#64-the-tower-of-hanoi)
+  - [6.5 Merge two arrays](#65-merge-two-arrays)
+  - [6.6 Merge sort](#66-merge-sort)
+  - [6.7 Eliminating Recursion (stack based solution)](#67-eliminating-recursion-stack-based-solution)
+  - [6.8 Complete Eliminating Recursion](#68-complete-eliminating-recursion)
+- [Chapter 7: Advanced Sorting](#chapter-7-advanced-sorting)
+  - [7.1 Shell sort](#71-shell-sort)
+  - [7.2 Partitioning](#72-partitioning)
+  - [7.3 Quick Sort Algorithm](#73-quick-sort-algorithm)
+  - [7.5 Quick Sort 3 (Handling Small Partitions)](#75-quick-sort-3-handling-small-partitions)
+  - [7.6 Radix sort](#76-radix-sort)
+- [Chapter 8: Binary Tree](#chapter-8-binary-tree)
+  - [8.1 Tree class](#81-tree-class)
+- [Chapter 10: 2-3-4 tree](#chapter-10-2-3-4-tree)
+  - [10.1 2-3-4 tree class](#101-2-3-4-tree-class)
+- [Chapter 11: Hash Tables](#chapter-11-hash-tables)
 ## chapter.2 : Arrays
 
 ### 2.1 Low Array Class
